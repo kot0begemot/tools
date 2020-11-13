@@ -14,9 +14,9 @@ host = '172.27.0.130'
 port = 21050
 database = 'main_day'
 auth_mechanism = 'PLAIN'
-user = 'barannikov-k'
-password_impala = keyring.get_password('ldap', 'barannikov-k')
-password_redshift = keyring.get_password('redshift', 'barannikov')
+user = ''
+password_impala = ''
+password_redshift = ''
 use_ssl = False
 
 def use_ip(new_ip):
